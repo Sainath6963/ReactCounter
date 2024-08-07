@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Button = ({ButtonName , ButtonImage}) => {
+const Button = ({ButtonName , ButtonImage,clickhandler}) => {
   return (
     <div>
-        <button><img src={ButtonImage} alt={ButtonName}/></button>
+        <button onClick={clickhandler}><img src={ButtonImage} alt={ButtonName}/></button>
     </div>
   )
 }

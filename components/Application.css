@@ -1,0 +1,18 @@
+section{
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+   
+}
+
+section button{
+  background-color: aqua;
+  max-width: 100px;
+  min-height:100px ;
+  
+}
+
+section img{
+    max-width: 50px;
+}
